@@ -1,19 +1,19 @@
 <!DOCTYPE html>
-<html lang="th">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content=" width = device-wibth, inital-scale=1.0">
-        <title>หน้าแรกห้องสมุด</title>
-        <link rel="stylesheet" href="style.css"
-    </head>
-    <body>
-        <header>
-            <h1>ห้องสมุดวิทยาลัย</h1>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="bg-bule-600 text-white p-4 flex justify-between items-center">
+            <h1 class="text-xl font-bold">ห้องสมุดวิทยาลัย</h1>
             <nav>
-                <ul>
-                    <li><a href="=">หน้าแรก</a></li>
-                    <li><a href="=">หนังสือ</a></li>
-                    <li><a href="=">ติดต่อ</a></li>
+                <ul class="flex gap-4">
+                    <li><a href="index.html" class="hover:underline">หน้าแรก</a></li>
+                    <li><a href="#" class="hover:underline">หนังสือ</a></li>
+                    <li><a href="login.html" class="hover:underline">ติดต่อ</a></li>
                 </ul>
             </nav>
         </header>
@@ -21,13 +21,23 @@
             <section>
                 <h2>ยินดีต้อนรับ</h2>
                 <p>เว็ปไซต์ห้องสมุดเพื่อการเรียนรู้</p>
+                <div class="max-w-sm bg-white rounded shadow p-4">
+                    <h3 class="text-lg font-bold mb-2">ชื่อหนังสือ</h3>
+                    <p class="text-gray-600">รายละเอียดหนังสือสั้นๆ...</p>
+                </div>
+                <button class="bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded">
+                    อ่านเพิ่มเติม
+                </button>
             </section>
             </main>
             <footer>
                 <P>@ 2025 ห้องสมุดวิทยาลัย</P>
             </footer>
-    </body>
+</body>
 </html>
+
+
+
 
 
 
